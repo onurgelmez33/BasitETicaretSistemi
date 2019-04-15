@@ -1,0 +1,133 @@
+﻿@model CategoryModel
+@{
+    ViewBag.Title = Model.Name;
+}
+
+
+<!-- Title Page -->
+<section class="bg-title-page p-t-50 p-b-40 flex-col-c-m" style="background-image: url(@Model.Image);">
+    <h2 class="l-text2 t-center">
+        @Model.Name
+    </h2>
+    <p class="m-text13 t-center">
+        @Model.Short
+    </p>
+</section>
+
+<!-- Content page -->
+<section class="bgwhite p-t-55 p-b-65">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 p-b-50">
+                <!--  -->
+                <div class="flex-sb-m flex-w p-b-35">
+                    <div class="flex-w">
+                        <div class="rs2-select2 bo4 of-hidden w-size12 m-t-5 m-b-5 m-r-10">
+                            <select class="selection-2" id="sorting">
+                                <option value="0">Sıralama Seçiniz</option>
+                                <option value="1">Görülme Sayısına Göre</option>
+                                <option value="2">Artan Fiyat</option>
+                                <option value="3">Azalan Fiyat</option>
+                            </select>
+                        </div>
+
+                        <div class="rs2-select2 bo4 of-hidden w-size12 m-t-5 m-b-5 m-r-10" style="padding-top: 15px;padding-left: 15px;">
+                            <input type="number" id="baslangicFiyat" placeholder="0₺" min="0" />
+                            @*<select class="selection-2" name="sorting">
+                                    <option>Price</option>
+                                    <option>$0.00 - $50.00</option>
+                                    <option>$50.00 - $100.00</option>
+                                    <option>$100.00 - $150.00</option>
+                                    <option>$150.00 - $200.00</option>
+                                    <option>$200.00+</option>
+
+                                </select>*@
+                        </div>
+
+                        <div class="rs2-select2 bo4 of-hidden w-size12 m-t-5 m-b-5 m-r-10" style="padding-top: 15px;padding-left: 15px;">
+                            <input type="number" id="bitisFiyat" placeholder="@ViewBag.MaxPrice₺" min="0" max="@ViewBag.MaxPrice" />
+                        </div>
+                        <div class="w-size2 p-t-10">
+                            <!-- Button -->
+                            <button class="flex-c-m size2 bg4 bo-rad-23 hov1 m-text3 trans-0-4" id="btnAra">
+                                Ara
+                            </button>
+                        </div>
+                    </div>
+
+                    <span class="s-text8 p-t-5 p-b-5">
+                        Showing 1–12 of 16 results
+                    </span>
+                </div>
+
+                <!-- Product -->
+                <div class="row">
+                    @foreach (var item in Model.Products)
+                    {
+                        <div class="col-sm-12 col-md-4 col-lg-3 p-b-50">
+                            <!-- Block2 -->
+                            <div class="block2">
+                                <div class="block2-img wrap-pic-w of-hidden pos-relative block2-labelnew">
+                                    <img src="@item.Pictures.FirstOrDefault()" alt="IMG-PRODUCT">
+
+                                    <div class="block2-overlay trans-0-4">
+                                        <a href="#" class="block2-btn-addwishlist hov-pointer trans-0-4">
+                                            <i class="icon-wishlist icon_heart_alt" aria-hidden="true"></i>
+                                            <i class="icon-wishlist icon_heart dis-none" aria-hidden="true"></i>
+                                        </a>
+
+                                        <div class="block2-btn-addcart w-size1 trans-0-4">
+                                            <!-- Button -->
+                                            <button class="flex-c-m size1 bg4 bo-rad-23 hov1 s-text1 trans-0-4">
+                                                Sepete Ekle
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="block2-txt p-t-20">
+                                    <a href="~/@item.Slug" class="block2-name dis-block s-text3 p-b-5">
+                                        @item.Name
+                                    </a>
+
+                                    <span class="block2-price m-text6 p-r-5">
+                                        @if (DateTime.Now < item.SpecialPriceEndDate && DateTime.Now > item.SpecialPriceStartDate && item.SpecialPrice.HasValue)
+                                        {
+                                            @(item.SpecialPrice.Value.ToString("n"))<text>₺</text>
+                                        }
+                                        else
+                                        {
+                                            @(item.Price.ToString("n"))<text>₺</text>
+                                        }
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    }
+                </div>
+
+                <!-- Pagination -->
+                @{ 
+                    int pageCount = (int)ViewBag.ProductCount / 8;
+                    int currentPage = (int)Request.QueryString["page"].AsInt();
+                }
+                <div class="pagination flex-m flex-w p-t-26">
+                    @for (int i = 1; i <= pageCount; i++)
+                    {
+                        <a href="@Request.RawUrl&page=@i" class="item-pagination flex-c-m trans-0-4 @(i == currentPage ? "active-pagination": "")">@i</a>
+                    }
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+@section scripts{
+    <script>
+        $("#btnAra").on("click", function () {
+            var sorting = $("#sorting").val();
+            var bitisFiyat = $("#bitisFiyat").val();
+            var baslangicFiyat = $("#baslangicFiyat").val();
+            window.location.replace("http://" + "@Request.Url.Host" + ":@Request.Url.Port@Request.Url.AbsolutePath" + "?order="+sorting+"&baslangicFiyat=" + baslangicFiyat + "&bitisFiyat=" + bitisFiyat);
+        })
+    </script>
+}

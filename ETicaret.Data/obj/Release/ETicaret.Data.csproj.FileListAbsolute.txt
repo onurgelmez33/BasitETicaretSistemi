@@ -1,0 +1,75 @@
+C:\Users\Sony\Documents\Visual Studio 2017\Projects\ETicaret\ETicaret.Data\bin\Release\ETicaret.Data.dll.config
+C:\Users\Sony\Documents\Visual Studio 2017\Projects\ETicaret\ETicaret.Data\bin\Release\ETicaret.Data.dll
+C:\Users\Sony\Documents\Visual Studio 2017\Projects\ETicaret\ETicaret.Data\bin\Release\ETicaret.Data.pdb
+C:\Users\Sony\Documents\Visual Studio 2017\Projects\ETicaret\ETicaret.Data\bin\Release\EntityFramework.dll
+C:\Users\Sony\Documents\Visual Studio 2017\Projects\ETicaret\ETicaret.Data\bin\Release\EntityFramework.SqlServer.dll
+C:\Users\Sony\Documents\Visual Studio 2017\Projects\ETicaret\ETicaret.Data\bin\Release\EntityFramework.xml
+C:\Users\Sony\Documents\Visual Studio 2017\Projects\ETicaret\ETicaret.Data\bin\Release\EntityFramework.SqlServer.xml
+C:\Users\Sony\Documents\Visual Studio 2017\Projects\ETicaret\ETicaret.Data\obj\Release\ETicaret.Data.csprojAssemblyReference.cache
+C:\Users\Sony\Documents\Visual Studio 2017\Projects\ETicaret\ETicaret.Data\obj\Release\ETicaret.Data.Migrations.Initial.resources
+C:\Users\Sony\Documents\Visual Studio 2017\Projects\ETicaret\ETicaret.Data\obj\Release\ETicaret.Data.Migrations.Telefon_Sutunu_Kullaniciya_Eklendi.resources
+C:\Users\Sony\Documents\Visual Studio 2017\Projects\ETicaret\ETicaret.Data\obj\Release\ETicaret.Data.Migrations.Role_Column_Added_To_Kullanici_Table.resources
+C:\Users\Sony\Documents\Visual Studio 2017\Projects\ETicaret\ETicaret.Data\obj\Release\ETicaret.Data.Migrations.Setting_Table_Creation.resources
+C:\Users\Sony\Documents\Visual Studio 2017\Projects\ETicaret\ETicaret.Data\obj\Release\ETicaret.Data.Migrations.ShowOnHomePage_added_to_Product_Table.resources
+C:\Users\Sony\Documents\Visual Studio 2017\Projects\ETicaret\ETicaret.Data\obj\Release\ETicaret.Data.Migrations.slideshow_table_product_and_categories_sort.resources
+C:\Users\Sony\Documents\Visual Studio 2017\Projects\ETicaret\ETicaret.Data\obj\Release\ETicaret.Data.Migrations.blog_table_created.resources
+C:\Users\Sony\Documents\Visual Studio 2017\Projects\ETicaret\ETicaret.Data\obj\Release\ETicaret.Data.Migrations.blog_slug_column_added.resources
+C:\Users\Sony\Documents\Visual Studio 2017\Projects\ETicaret\ETicaret.Data\obj\Release\ETicaret.Data.Migrations.Viewed_column_added_to_urun_table.resources
+C:\Users\Sony\Documents\Visual Studio 2017\Projects\ETicaret\ETicaret.Data\obj\Release\ETicaret.Data.Migrations.Tags_column_added_to_blog_table.resources
+C:\Users\Sony\Documents\Visual Studio 2017\Projects\ETicaret\ETicaret.Data\obj\Release\ETicaret.Data.Migrations.adreslere_adsoyad_alani_eklendi.resources
+C:\Users\Sony\Documents\Visual Studio 2017\Projects\ETicaret\ETicaret.Data\obj\Release\ETicaret.Data.Migrations.added_free_shipping_areas.resources
+C:\Users\Sony\Documents\Visual Studio 2017\Projects\ETicaret\ETicaret.Data\obj\Release\ETicaret.Data.csproj.GenerateResource.cache
+C:\Users\Sony\Documents\Visual Studio 2017\Projects\ETicaret\ETicaret.Data\obj\Release\ETicaret.Data.csproj.CoreCompileInputs.cache
+C:\Users\Sony\Documents\Visual Studio 2017\Projects\ETicaret\ETicaret.Data\obj\Release\ETicaret.Data.csproj.CopyComplete
+C:\Users\Sony\Documents\Visual Studio 2017\Projects\ETicaret\ETicaret.Data\obj\Release\ETicaret.Data.dll
+C:\Users\Sony\Documents\Visual Studio 2017\Projects\ETicaret\ETicaret.Data\obj\Release\ETicaret.Data.pdb
+C:\Users\root\Desktop\ETicaret\ETicaret.Data\bin\Release\ETicaret.Data.dll.config
+C:\Users\root\Desktop\ETicaret\ETicaret.Data\bin\Release\ETicaret.Data.dll
+C:\Users\root\Desktop\ETicaret\ETicaret.Data\bin\Release\ETicaret.Data.pdb
+C:\Users\root\Desktop\ETicaret\ETicaret.Data\bin\Release\EntityFramework.dll
+C:\Users\root\Desktop\ETicaret\ETicaret.Data\bin\Release\EntityFramework.SqlServer.dll
+C:\Users\root\Desktop\ETicaret\ETicaret.Data\bin\Release\EntityFramework.xml
+C:\Users\root\Desktop\ETicaret\ETicaret.Data\bin\Release\EntityFramework.SqlServer.xml
+C:\Users\root\Desktop\ETicaret\ETicaret.Data\obj\Release\ETicaret.Data.csprojAssemblyReference.cache
+C:\Users\root\Desktop\ETicaret\ETicaret.Data\obj\Release\ETicaret.Data.Migrations.Initial.resources
+C:\Users\root\Desktop\ETicaret\ETicaret.Data\obj\Release\ETicaret.Data.Migrations.Telefon_Sutunu_Kullaniciya_Eklendi.resources
+C:\Users\root\Desktop\ETicaret\ETicaret.Data\obj\Release\ETicaret.Data.Migrations.Role_Column_Added_To_Kullanici_Table.resources
+C:\Users\root\Desktop\ETicaret\ETicaret.Data\obj\Release\ETicaret.Data.Migrations.Setting_Table_Creation.resources
+C:\Users\root\Desktop\ETicaret\ETicaret.Data\obj\Release\ETicaret.Data.Migrations.ShowOnHomePage_added_to_Product_Table.resources
+C:\Users\root\Desktop\ETicaret\ETicaret.Data\obj\Release\ETicaret.Data.Migrations.slideshow_table_product_and_categories_sort.resources
+C:\Users\root\Desktop\ETicaret\ETicaret.Data\obj\Release\ETicaret.Data.Migrations.blog_table_created.resources
+C:\Users\root\Desktop\ETicaret\ETicaret.Data\obj\Release\ETicaret.Data.Migrations.blog_slug_column_added.resources
+C:\Users\root\Desktop\ETicaret\ETicaret.Data\obj\Release\ETicaret.Data.Migrations.Viewed_column_added_to_urun_table.resources
+C:\Users\root\Desktop\ETicaret\ETicaret.Data\obj\Release\ETicaret.Data.Migrations.Tags_column_added_to_blog_table.resources
+C:\Users\root\Desktop\ETicaret\ETicaret.Data\obj\Release\ETicaret.Data.Migrations.adreslere_adsoyad_alani_eklendi.resources
+C:\Users\root\Desktop\ETicaret\ETicaret.Data\obj\Release\ETicaret.Data.Migrations.added_free_shipping_areas.resources
+C:\Users\root\Desktop\ETicaret\ETicaret.Data\obj\Release\ETicaret.Data.csproj.GenerateResource.cache
+C:\Users\root\Desktop\ETicaret\ETicaret.Data\obj\Release\ETicaret.Data.csproj.CoreCompileInputs.cache
+C:\Users\root\Desktop\ETicaret\ETicaret.Data\obj\Release\ETicaret.Data.csproj.CopyComplete
+C:\Users\root\Desktop\ETicaret\ETicaret.Data\obj\Release\ETicaret.Data.dll
+C:\Users\root\Desktop\ETicaret\ETicaret.Data\obj\Release\ETicaret.Data.pdb
+D:\yedek\ders\ETicaret\ETicaret.Data\bin\Release\ETicaret.Data.dll.config
+D:\yedek\ders\ETicaret\ETicaret.Data\bin\Release\ETicaret.Data.dll
+D:\yedek\ders\ETicaret\ETicaret.Data\bin\Release\ETicaret.Data.pdb
+D:\yedek\ders\ETicaret\ETicaret.Data\bin\Release\EntityFramework.dll
+D:\yedek\ders\ETicaret\ETicaret.Data\bin\Release\EntityFramework.SqlServer.dll
+D:\yedek\ders\ETicaret\ETicaret.Data\bin\Release\EntityFramework.xml
+D:\yedek\ders\ETicaret\ETicaret.Data\bin\Release\EntityFramework.SqlServer.xml
+D:\yedek\ders\ETicaret\ETicaret.Data\obj\Release\ETicaret.Data.csprojAssemblyReference.cache
+D:\yedek\ders\ETicaret\ETicaret.Data\obj\Release\ETicaret.Data.Migrations.Initial.resources
+D:\yedek\ders\ETicaret\ETicaret.Data\obj\Release\ETicaret.Data.Migrations.Telefon_Sutunu_Kullaniciya_Eklendi.resources
+D:\yedek\ders\ETicaret\ETicaret.Data\obj\Release\ETicaret.Data.Migrations.Role_Column_Added_To_Kullanici_Table.resources
+D:\yedek\ders\ETicaret\ETicaret.Data\obj\Release\ETicaret.Data.Migrations.Setting_Table_Creation.resources
+D:\yedek\ders\ETicaret\ETicaret.Data\obj\Release\ETicaret.Data.Migrations.ShowOnHomePage_added_to_Product_Table.resources
+D:\yedek\ders\ETicaret\ETicaret.Data\obj\Release\ETicaret.Data.Migrations.slideshow_table_product_and_categories_sort.resources
+D:\yedek\ders\ETicaret\ETicaret.Data\obj\Release\ETicaret.Data.Migrations.blog_table_created.resources
+D:\yedek\ders\ETicaret\ETicaret.Data\obj\Release\ETicaret.Data.Migrations.blog_slug_column_added.resources
+D:\yedek\ders\ETicaret\ETicaret.Data\obj\Release\ETicaret.Data.Migrations.Viewed_column_added_to_urun_table.resources
+D:\yedek\ders\ETicaret\ETicaret.Data\obj\Release\ETicaret.Data.Migrations.Tags_column_added_to_blog_table.resources
+D:\yedek\ders\ETicaret\ETicaret.Data\obj\Release\ETicaret.Data.Migrations.adreslere_adsoyad_alani_eklendi.resources
+D:\yedek\ders\ETicaret\ETicaret.Data\obj\Release\ETicaret.Data.Migrations.added_free_shipping_areas.resources
+D:\yedek\ders\ETicaret\ETicaret.Data\obj\Release\ETicaret.Data.csproj.GenerateResource.cache
+D:\yedek\ders\ETicaret\ETicaret.Data\obj\Release\ETicaret.Data.csproj.CoreCompileInputs.cache
+D:\yedek\ders\ETicaret\ETicaret.Data\obj\Release\ETicaret.Data.csproj.CopyComplete
+D:\yedek\ders\ETicaret\ETicaret.Data\obj\Release\ETicaret.Data.dll
+D:\yedek\ders\ETicaret\ETicaret.Data\obj\Release\ETicaret.Data.pdb

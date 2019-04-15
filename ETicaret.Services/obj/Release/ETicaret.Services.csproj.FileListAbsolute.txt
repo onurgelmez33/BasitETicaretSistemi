@@ -1,0 +1,45 @@
+C:\Users\Sony\Documents\Visual Studio 2017\Projects\ETicaret\ETicaret.Services\bin\Release\ETicaret.Services.dll.config
+C:\Users\Sony\Documents\Visual Studio 2017\Projects\ETicaret\ETicaret.Services\bin\Release\ETicaret.Services.dll
+C:\Users\Sony\Documents\Visual Studio 2017\Projects\ETicaret\ETicaret.Services\bin\Release\ETicaret.Services.pdb
+C:\Users\Sony\Documents\Visual Studio 2017\Projects\ETicaret\ETicaret.Services\bin\Release\EntityFramework.dll
+C:\Users\Sony\Documents\Visual Studio 2017\Projects\ETicaret\ETicaret.Services\bin\Release\EntityFramework.SqlServer.dll
+C:\Users\Sony\Documents\Visual Studio 2017\Projects\ETicaret\ETicaret.Services\bin\Release\ETicaret.Data.dll
+C:\Users\Sony\Documents\Visual Studio 2017\Projects\ETicaret\ETicaret.Services\bin\Release\ETicaret.Data.pdb
+C:\Users\Sony\Documents\Visual Studio 2017\Projects\ETicaret\ETicaret.Services\bin\Release\ETicaret.Data.dll.config
+C:\Users\Sony\Documents\Visual Studio 2017\Projects\ETicaret\ETicaret.Services\bin\Release\EntityFramework.xml
+C:\Users\Sony\Documents\Visual Studio 2017\Projects\ETicaret\ETicaret.Services\bin\Release\EntityFramework.SqlServer.xml
+C:\Users\Sony\Documents\Visual Studio 2017\Projects\ETicaret\ETicaret.Services\obj\Release\ETicaret.Services.csprojAssemblyReference.cache
+C:\Users\Sony\Documents\Visual Studio 2017\Projects\ETicaret\ETicaret.Services\obj\Release\ETicaret.Services.csproj.CoreCompileInputs.cache
+C:\Users\Sony\Documents\Visual Studio 2017\Projects\ETicaret\ETicaret.Services\obj\Release\ETicaret.Services.csproj.CopyComplete
+C:\Users\Sony\Documents\Visual Studio 2017\Projects\ETicaret\ETicaret.Services\obj\Release\ETicaret.Services.dll
+C:\Users\Sony\Documents\Visual Studio 2017\Projects\ETicaret\ETicaret.Services\obj\Release\ETicaret.Services.pdb
+C:\Users\root\Desktop\ETicaret\ETicaret.Services\bin\Release\ETicaret.Services.dll.config
+C:\Users\root\Desktop\ETicaret\ETicaret.Services\bin\Release\ETicaret.Services.dll
+C:\Users\root\Desktop\ETicaret\ETicaret.Services\bin\Release\ETicaret.Services.pdb
+C:\Users\root\Desktop\ETicaret\ETicaret.Services\bin\Release\EntityFramework.dll
+C:\Users\root\Desktop\ETicaret\ETicaret.Services\bin\Release\EntityFramework.SqlServer.dll
+C:\Users\root\Desktop\ETicaret\ETicaret.Services\bin\Release\ETicaret.Data.dll
+C:\Users\root\Desktop\ETicaret\ETicaret.Services\bin\Release\ETicaret.Data.pdb
+C:\Users\root\Desktop\ETicaret\ETicaret.Services\bin\Release\ETicaret.Data.dll.config
+C:\Users\root\Desktop\ETicaret\ETicaret.Services\bin\Release\EntityFramework.xml
+C:\Users\root\Desktop\ETicaret\ETicaret.Services\bin\Release\EntityFramework.SqlServer.xml
+C:\Users\root\Desktop\ETicaret\ETicaret.Services\obj\Release\ETicaret.Services.csprojAssemblyReference.cache
+C:\Users\root\Desktop\ETicaret\ETicaret.Services\obj\Release\ETicaret.Services.csproj.CoreCompileInputs.cache
+C:\Users\root\Desktop\ETicaret\ETicaret.Services\obj\Release\ETicaret.Services.csproj.CopyComplete
+C:\Users\root\Desktop\ETicaret\ETicaret.Services\obj\Release\ETicaret.Services.dll
+C:\Users\root\Desktop\ETicaret\ETicaret.Services\obj\Release\ETicaret.Services.pdb
+D:\yedek\ders\ETicaret\ETicaret.Services\bin\Release\ETicaret.Services.dll.config
+D:\yedek\ders\ETicaret\ETicaret.Services\bin\Release\ETicaret.Services.dll
+D:\yedek\ders\ETicaret\ETicaret.Services\bin\Release\ETicaret.Services.pdb
+D:\yedek\ders\ETicaret\ETicaret.Services\bin\Release\EntityFramework.dll
+D:\yedek\ders\ETicaret\ETicaret.Services\bin\Release\EntityFramework.SqlServer.dll
+D:\yedek\ders\ETicaret\ETicaret.Services\bin\Release\ETicaret.Data.dll
+D:\yedek\ders\ETicaret\ETicaret.Services\bin\Release\ETicaret.Data.pdb
+D:\yedek\ders\ETicaret\ETicaret.Services\bin\Release\ETicaret.Data.dll.config
+D:\yedek\ders\ETicaret\ETicaret.Services\bin\Release\EntityFramework.xml
+D:\yedek\ders\ETicaret\ETicaret.Services\bin\Release\EntityFramework.SqlServer.xml
+D:\yedek\ders\ETicaret\ETicaret.Services\obj\Release\ETicaret.Services.csprojAssemblyReference.cache
+D:\yedek\ders\ETicaret\ETicaret.Services\obj\Release\ETicaret.Services.csproj.CoreCompileInputs.cache
+D:\yedek\ders\ETicaret\ETicaret.Services\obj\Release\ETicaret.Services.csproj.CopyComplete
+D:\yedek\ders\ETicaret\ETicaret.Services\obj\Release\ETicaret.Services.dll
+D:\yedek\ders\ETicaret\ETicaret.Services\obj\Release\ETicaret.Services.pdb

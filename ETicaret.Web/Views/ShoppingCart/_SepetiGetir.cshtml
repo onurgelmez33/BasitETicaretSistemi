@@ -1,0 +1,64 @@
+﻿@model IEnumerable<ShoppingCartModel>
+@if (Model == null)
+{
+    return;
+}
+<div class="header-wrapicon2" id="cartArea">
+    <img src="~/Content/images/icons/icon-header-02.png" class="header-icon1 js-show-header-dropdown" alt="ICON">
+    <span class="header-icons-noti">@Model.Count()</span>
+
+    <!-- Header cart noti -->
+    <div class="header-cart header-dropdown">
+        <ul class="header-cart-wrapitem">
+            @{
+                var toplamFiyat = decimal.Zero;
+            }
+            @if (Model.Count() > 0)
+            {
+                foreach (var item in Model)
+                {
+                    toplamFiyat += item.Fiyat * item.Adet;
+                    <li class="header-cart-item">
+                        <div class="header-cart-item-img">
+                            <img src="@item.ResimYol" alt="IMG">
+                        </div>
+
+                        <div class="header-cart-item-txt">
+                            <a href="~/@item.Link" class="header-cart-item-name">
+                                @item.UrunAdi
+                            </a>
+
+                            <span class="header-cart-item-info">
+                                @item.Adet x @(item.Fiyat.ToString("n"))₺
+                            </span>
+                        </div>
+                    </li>
+                }
+            }
+            else
+            {
+                <text>Sepetinizde ürün bulunmamakta</text>
+            }
+        </ul>
+
+        <div class="header-cart-total">
+            Toplam: @(toplamFiyat.ToString("n"))₺
+        </div>
+
+        <div class="header-cart-buttons">
+            <div class="header-cart-wrapbtn">
+                <!-- Button -->
+                <a href="~/cart" class="flex-c-m size1 bg1 bo-rad-20 hov1 s-text1 trans-0-4">
+                    Sepeti Göster
+                </a>
+            </div>
+
+            <div class="header-cart-wrapbtn">
+                <!-- Button -->
+                <a href="~/checkout" class="flex-c-m size1 bg1 bo-rad-20 hov1 s-text1 trans-0-4">
+                    Tamamla
+                </a>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,31 @@
+﻿@model IEnumerable<AddressModel>
+<h3 class="mt-3 pb-3 mb-4 font-italic border-bottom">
+    Adreslerim
+</h3>
+@using (Html.BeginForm("Select" + (string)ViewBag.Type + "Address", "Checkout", FormMethod.Post))
+{
+    @Html.AntiForgeryToken()
+    <input type="hidden" name="billingId" value="@Request.Params.Get("billingId")" />
+    <input type="hidden" name="shippingId" value="@Request.Params.Get("shippingId")" />
+    <div class="row m-b-20">
+        @foreach (var item in Model)
+        {
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body">
+                        <input type="submit" style="display:none;" name="addressId" value="@item.Id" id="submit_@item.Id" />
+                        <p class="card-text">
+                            Ad Soyad: @item.AdSoyad <br />
+                            Adres: @item.Adres <br />
+                            Şehir: @item.Sehir <br />
+                            Posta Kodu: @item.PostaKodu <br />
+                            Ülke: @item.Ulke <br />
+                            Telefon: @item.Telefon
+                        </p>
+                        <button type="button" class="btn btn-primary btn-block" onclick="$('#submit_@item.Id').click();">Bu adresi seç</button>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+}

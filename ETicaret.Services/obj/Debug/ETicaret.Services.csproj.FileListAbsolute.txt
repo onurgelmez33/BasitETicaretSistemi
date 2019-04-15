@@ -1,0 +1,15 @@
+C:\Users\Sony\Documents\Visual Studio 2017\Projects\ETicaret\ETicaret.Services\bin\Debug\ETicaret.Services.dll.config
+C:\Users\Sony\Documents\Visual Studio 2017\Projects\ETicaret\ETicaret.Services\bin\Debug\ETicaret.Services.dll
+C:\Users\Sony\Documents\Visual Studio 2017\Projects\ETicaret\ETicaret.Services\bin\Debug\ETicaret.Services.pdb
+C:\Users\Sony\Documents\Visual Studio 2017\Projects\ETicaret\ETicaret.Services\bin\Debug\EntityFramework.dll
+C:\Users\Sony\Documents\Visual Studio 2017\Projects\ETicaret\ETicaret.Services\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Sony\Documents\Visual Studio 2017\Projects\ETicaret\ETicaret.Services\bin\Debug\ETicaret.Data.dll
+C:\Users\Sony\Documents\Visual Studio 2017\Projects\ETicaret\ETicaret.Services\bin\Debug\ETicaret.Data.pdb
+C:\Users\Sony\Documents\Visual Studio 2017\Projects\ETicaret\ETicaret.Services\bin\Debug\ETicaret.Data.dll.config
+C:\Users\Sony\Documents\Visual Studio 2017\Projects\ETicaret\ETicaret.Services\bin\Debug\EntityFramework.xml
+C:\Users\Sony\Documents\Visual Studio 2017\Projects\ETicaret\ETicaret.Services\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Sony\Documents\Visual Studio 2017\Projects\ETicaret\ETicaret.Services\obj\Debug\ETicaret.Services.csprojAssemblyReference.cache
+C:\Users\Sony\Documents\Visual Studio 2017\Projects\ETicaret\ETicaret.Services\obj\Debug\ETicaret.Services.csproj.CoreCompileInputs.cache
+C:\Users\Sony\Documents\Visual Studio 2017\Projects\ETicaret\ETicaret.Services\obj\Debug\ETicaret.Services.csproj.CopyComplete
+C:\Users\Sony\Documents\Visual Studio 2017\Projects\ETicaret\ETicaret.Services\obj\Debug\ETicaret.Services.dll
+C:\Users\Sony\Documents\Visual Studio 2017\Projects\ETicaret\ETicaret.Services\obj\Debug\ETicaret.Services.pdb

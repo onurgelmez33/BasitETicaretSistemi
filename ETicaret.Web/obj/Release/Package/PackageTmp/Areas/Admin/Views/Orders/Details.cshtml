@@ -1,0 +1,149 @@
+﻿@model ETicaret.Web.Areas.Admin.Models.OrderDetailsModel
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
+    var shippingAddress = Model.KargoAdresi;
+    var billingAddress = Model.FaturaAdresi;
+}
+<h2> Sipariş #@Model.Id</h2>
+<div class="row">
+    <div class="col-md-4">
+        <div class="card">
+            <div class="card-body" style="padding: 10px 20px;">
+                <h3>Fatura Adresi</h3>
+                <p class="card-text">
+                    Ad Soyad: <b>@billingAddress.AdSoyad</b> <br />
+                    Adres: <b>@billingAddress.Adres</b> <br />
+                    Şehir: <b>@billingAddress.Sehir</b> <br />
+                    Posta Kodu: <b>@billingAddress.PostaKodu</b> <br />
+                    Ülke: <b>@billingAddress.Ulke</b> <br />
+                    Telefon: <b>@billingAddress.Telefon</b>
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-4">
+        <div class="card">
+            <div class="card-body" style="padding: 10px 20px;">
+                <h3>Kargo Adresi</h3>
+                <p class="card-text">
+                    Ad Soyad: <b>@shippingAddress.AdSoyad</b> <br />
+                    Adres: <b>@shippingAddress.Adres</b> <br />
+                    Şehir: <b>@shippingAddress.Sehir</b> <br />
+                    Posta Kodu: <b>@shippingAddress.PostaKodu</b> <br />
+                    Ülke: <b>@shippingAddress.Ulke</b> <br />
+                    Telefon: <b>@shippingAddress.Telefon</b>
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-12">
+        <div class="card">
+            <div class="card-body" style="padding: 10px 20px;">
+                <h3>Sipariş Detayları</h3>
+                <p class="card-text">
+                    Sipariş Özel Kodu: <b>@Model.Guid</b> <br />
+                    Tarih: <b>@Model.Tarih.ToLongDateString() @Model.Tarih.ToLongTimeString()</b> <br />
+                    Müşteri: <b>@Model.Musteri</b> <br />
+                    Tutar: <b>@(Model.Tutar.ToString("n"))₺</b> <br />
+                    Gerçek Tutar(İndirimsiz): <b>@(Model.GercekTutar.ToString("n"))₺</b> <br />
+                    Sipariş Durumu: <b>@Model.DurumEnum</b> <br />
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-12">
+        <div class="card">
+            <div class="card-body" style="padding: 10px 20px;">
+                <h3>Ürünler</h3>
+                <p class="card-text">
+                    <table class="table table-responsive">
+                        <thead>
+                            <tr>
+                                <th></th>
+                                <th>Ürün Adı</th>
+                                <th>Adet</th>
+                                <th>Fiyat</th>
+                                <th>Gerçek Fiyat</th>
+                            </tr>
+                        </thead>
+                        @foreach (var item in Model.Urunler)
+                        {
+                            <tr>
+                                <td><img src="@item.Resim" width="75" /></td>
+                                <td>@item.UrunAdi</td>
+                                <td>@item.Adet</td>
+                                <td>@(item.Tutar.ToString("n"))₺</td>
+                                <td>@(item.GercekTutar.ToString("n"))₺</td>
+                            </tr>
+                        }
+                        <tr>
+                            <td colspan="2"></td>
+                            <td>@Model.Urunler.Sum(f => f.Adet)</td>
+                            <td>@(Model.Urunler.Sum(f => f.Tutar).ToString("n"))₺</td>
+                            <td>@(Model.Urunler.Sum(f => f.GercekTutar).ToString("n"))₺</td>
+                        </tr>
+                    </table>
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-12">
+        <div class="card">
+            <div class="card-body" style="padding: 10px 20px;">
+                <h3>Sipariş Durumunu Düzenle</h3>
+                <p class="card-text">
+                    <select id="siparisDurumu" class="form-control col-md-12" style="margin-bottom:20px;">
+                        <option value="0">
+                            Onaylandı
+                        </option>
+                        <option value="1">
+                            Beklemede
+                        </option>
+                        <option value="2">
+                            Kargoda
+                        </option>
+                        <option value="3">
+                            Teslim Edildi
+                        </option>
+                        <option value="-1">
+                            Iptal
+                        </option>
+                        <option value="4">
+                            Iade
+                        </option>
+                    </select>
+                    <button type="button" id="btnSubmit" class="btn btn-primary">Durumu Değiştir</button>
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+<p>
+    @Html.ActionLink("Geri Dön", "Index")
+</p>
+@section scripts{
+    <script>
+        $("#btnSubmit").click(function () {
+            var id = '@Model.Id';
+            var statusId = $("#siparisDurumu").val();
+            if (confirm("Emin misin?")) {
+                $.ajax({
+                    url: '/admin/orders/changeStatus/' + id + '?statusId=' + statusId,
+                    type: 'get',
+                    success: function () {
+                        alert("Durum Değiştirildi");
+                        window.location.reload();
+                    }
+                })
+            }
+        })
+    </script>    
+}

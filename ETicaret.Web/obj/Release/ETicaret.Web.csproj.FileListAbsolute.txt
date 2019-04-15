@@ -1,0 +1,255 @@
+C:\Users\Sony\Documents\Visual Studio 2017\Projects\ETicaret\ETicaret.Web\bin\ETicaret.Web.dll.config
+C:\Users\Sony\Documents\Visual Studio 2017\Projects\ETicaret\ETicaret.Web\bin\ETicaret.Web.dll
+C:\Users\Sony\Documents\Visual Studio 2017\Projects\ETicaret\ETicaret.Web\bin\ETicaret.Web.pdb
+C:\Users\Sony\Documents\Visual Studio 2017\Projects\ETicaret\ETicaret.Web\bin\roslyn\csc.exe
+C:\Users\Sony\Documents\Visual Studio 2017\Projects\ETicaret\ETicaret.Web\bin\roslyn\csc.exe.config
+C:\Users\Sony\Documents\Visual Studio 2017\Projects\ETicaret\ETicaret.Web\bin\roslyn\csc.rsp
+C:\Users\Sony\Documents\Visual Studio 2017\Projects\ETicaret\ETicaret.Web\bin\roslyn\csi.exe
+C:\Users\Sony\Documents\Visual Studio 2017\Projects\ETicaret\ETicaret.Web\bin\roslyn\csi.exe.config
+C:\Users\Sony\Documents\Visual Studio 2017\Projects\ETicaret\ETicaret.Web\bin\roslyn\csi.rsp
+C:\Users\Sony\Documents\Visual Studio 2017\Projects\ETicaret\ETicaret.Web\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Sony\Documents\Visual Studio 2017\Projects\ETicaret\ETicaret.Web\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Sony\Documents\Visual Studio 2017\Projects\ETicaret\ETicaret.Web\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Sony\Documents\Visual Studio 2017\Projects\ETicaret\ETicaret.Web\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Sony\Documents\Visual Studio 2017\Projects\ETicaret\ETicaret.Web\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Sony\Documents\Visual Studio 2017\Projects\ETicaret\ETicaret.Web\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Sony\Documents\Visual Studio 2017\Projects\ETicaret\ETicaret.Web\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Sony\Documents\Visual Studio 2017\Projects\ETicaret\ETicaret.Web\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Sony\Documents\Visual Studio 2017\Projects\ETicaret\ETicaret.Web\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Sony\Documents\Visual Studio 2017\Projects\ETicaret\ETicaret.Web\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Sony\Documents\Visual Studio 2017\Projects\ETicaret\ETicaret.Web\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\Sony\Documents\Visual Studio 2017\Projects\ETicaret\ETicaret.Web\bin\roslyn\System.AppContext.dll
+C:\Users\Sony\Documents\Visual Studio 2017\Projects\ETicaret\ETicaret.Web\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Sony\Documents\Visual Studio 2017\Projects\ETicaret\ETicaret.Web\bin\roslyn\System.Console.dll
+C:\Users\Sony\Documents\Visual Studio 2017\Projects\ETicaret\ETicaret.Web\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Sony\Documents\Visual Studio 2017\Projects\ETicaret\ETicaret.Web\bin\roslyn\System.Diagnostics.Process.dll
+C:\Users\Sony\Documents\Visual Studio 2017\Projects\ETicaret\ETicaret.Web\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Sony\Documents\Visual Studio 2017\Projects\ETicaret\ETicaret.Web\bin\roslyn\System.IO.Compression.dll
+C:\Users\Sony\Documents\Visual Studio 2017\Projects\ETicaret\ETicaret.Web\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Sony\Documents\Visual Studio 2017\Projects\ETicaret\ETicaret.Web\bin\roslyn\System.IO.FileSystem.DriveInfo.dll
+C:\Users\Sony\Documents\Visual Studio 2017\Projects\ETicaret\ETicaret.Web\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Sony\Documents\Visual Studio 2017\Projects\ETicaret\ETicaret.Web\bin\roslyn\System.IO.Pipes.dll
+C:\Users\Sony\Documents\Visual Studio 2017\Projects\ETicaret\ETicaret.Web\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Sony\Documents\Visual Studio 2017\Projects\ETicaret\ETicaret.Web\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\Sony\Documents\Visual Studio 2017\Projects\ETicaret\ETicaret.Web\bin\roslyn\System.Security.Claims.dll
+C:\Users\Sony\Documents\Visual Studio 2017\Projects\ETicaret\ETicaret.Web\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Sony\Documents\Visual Studio 2017\Projects\ETicaret\ETicaret.Web\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Sony\Documents\Visual Studio 2017\Projects\ETicaret\ETicaret.Web\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Sony\Documents\Visual Studio 2017\Projects\ETicaret\ETicaret.Web\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Sony\Documents\Visual Studio 2017\Projects\ETicaret\ETicaret.Web\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\Sony\Documents\Visual Studio 2017\Projects\ETicaret\ETicaret.Web\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Sony\Documents\Visual Studio 2017\Projects\ETicaret\ETicaret.Web\bin\roslyn\System.Threading.Thread.dll
+C:\Users\Sony\Documents\Visual Studio 2017\Projects\ETicaret\ETicaret.Web\bin\roslyn\System.ValueTuple.dll
+C:\Users\Sony\Documents\Visual Studio 2017\Projects\ETicaret\ETicaret.Web\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Sony\Documents\Visual Studio 2017\Projects\ETicaret\ETicaret.Web\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Sony\Documents\Visual Studio 2017\Projects\ETicaret\ETicaret.Web\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Sony\Documents\Visual Studio 2017\Projects\ETicaret\ETicaret.Web\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Sony\Documents\Visual Studio 2017\Projects\ETicaret\ETicaret.Web\bin\roslyn\vbc.exe
+C:\Users\Sony\Documents\Visual Studio 2017\Projects\ETicaret\ETicaret.Web\bin\roslyn\vbc.exe.config
+C:\Users\Sony\Documents\Visual Studio 2017\Projects\ETicaret\ETicaret.Web\bin\roslyn\vbc.rsp
+C:\Users\Sony\Documents\Visual Studio 2017\Projects\ETicaret\ETicaret.Web\bin\roslyn\VBCSCompiler.exe
+C:\Users\Sony\Documents\Visual Studio 2017\Projects\ETicaret\ETicaret.Web\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Sony\Documents\Visual Studio 2017\Projects\ETicaret\ETicaret.Web\bin\Autofac.dll
+C:\Users\Sony\Documents\Visual Studio 2017\Projects\ETicaret\ETicaret.Web\bin\Autofac.Integration.Mvc.dll
+C:\Users\Sony\Documents\Visual Studio 2017\Projects\ETicaret\ETicaret.Web\bin\EntityFramework.dll
+C:\Users\Sony\Documents\Visual Studio 2017\Projects\ETicaret\ETicaret.Web\bin\EntityFramework.SqlServer.dll
+C:\Users\Sony\Documents\Visual Studio 2017\Projects\ETicaret\ETicaret.Web\bin\ETicaret.Data.dll
+C:\Users\Sony\Documents\Visual Studio 2017\Projects\ETicaret\ETicaret.Web\bin\ETicaret.Services.dll
+C:\Users\Sony\Documents\Visual Studio 2017\Projects\ETicaret\ETicaret.Web\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Sony\Documents\Visual Studio 2017\Projects\ETicaret\ETicaret.Web\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Sony\Documents\Visual Studio 2017\Projects\ETicaret\ETicaret.Web\bin\System.Web.Helpers.dll
+C:\Users\Sony\Documents\Visual Studio 2017\Projects\ETicaret\ETicaret.Web\bin\System.Web.Mvc.dll
+C:\Users\Sony\Documents\Visual Studio 2017\Projects\ETicaret\ETicaret.Web\bin\System.Web.Razor.dll
+C:\Users\Sony\Documents\Visual Studio 2017\Projects\ETicaret\ETicaret.Web\bin\System.Web.Webpages.Deployment.dll
+C:\Users\Sony\Documents\Visual Studio 2017\Projects\ETicaret\ETicaret.Web\bin\System.Web.Webpages.dll
+C:\Users\Sony\Documents\Visual Studio 2017\Projects\ETicaret\ETicaret.Web\bin\System.Web.Webpages.Razor.dll
+C:\Users\Sony\Documents\Visual Studio 2017\Projects\ETicaret\ETicaret.Web\bin\ETicaret.Data.pdb
+C:\Users\Sony\Documents\Visual Studio 2017\Projects\ETicaret\ETicaret.Web\bin\ETicaret.Data.dll.config
+C:\Users\Sony\Documents\Visual Studio 2017\Projects\ETicaret\ETicaret.Web\bin\ETicaret.Services.pdb
+C:\Users\Sony\Documents\Visual Studio 2017\Projects\ETicaret\ETicaret.Web\bin\ETicaret.Services.dll.config
+C:\Users\Sony\Documents\Visual Studio 2017\Projects\ETicaret\ETicaret.Web\bin\Autofac.xml
+C:\Users\Sony\Documents\Visual Studio 2017\Projects\ETicaret\ETicaret.Web\bin\Autofac.Integration.Mvc.xml
+C:\Users\Sony\Documents\Visual Studio 2017\Projects\ETicaret\ETicaret.Web\bin\EntityFramework.xml
+C:\Users\Sony\Documents\Visual Studio 2017\Projects\ETicaret\ETicaret.Web\bin\EntityFramework.SqlServer.xml
+C:\Users\Sony\Documents\Visual Studio 2017\Projects\ETicaret\ETicaret.Web\bin\System.Web.Razor.xml
+C:\Users\Sony\Documents\Visual Studio 2017\Projects\ETicaret\ETicaret.Web\bin\System.Web.Webpages.xml
+C:\Users\Sony\Documents\Visual Studio 2017\Projects\ETicaret\ETicaret.Web\bin\System.Web.Webpages.Deployment.xml
+C:\Users\Sony\Documents\Visual Studio 2017\Projects\ETicaret\ETicaret.Web\bin\System.Web.Webpages.Razor.xml
+C:\Users\Sony\Documents\Visual Studio 2017\Projects\ETicaret\ETicaret.Web\bin\System.Web.Helpers.xml
+C:\Users\Sony\Documents\Visual Studio 2017\Projects\ETicaret\ETicaret.Web\bin\System.Web.Mvc.xml
+C:\Users\Sony\Documents\Visual Studio 2017\Projects\ETicaret\ETicaret.Web\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Sony\Documents\Visual Studio 2017\Projects\ETicaret\ETicaret.Web\obj\Release\ETicaret.Web.csprojAssemblyReference.cache
+C:\Users\Sony\Documents\Visual Studio 2017\Projects\ETicaret\ETicaret.Web\obj\Release\ETicaret.Web.csproj.CoreCompileInputs.cache
+C:\Users\Sony\Documents\Visual Studio 2017\Projects\ETicaret\ETicaret.Web\obj\Release\ETicaret.Web.csproj.CopyComplete
+C:\Users\Sony\Documents\Visual Studio 2017\Projects\ETicaret\ETicaret.Web\obj\Release\ETicaret.Web.dll
+C:\Users\Sony\Documents\Visual Studio 2017\Projects\ETicaret\ETicaret.Web\obj\Release\ETicaret.Web.pdb
+C:\Users\root\Desktop\ETicaret\ETicaret.Web\bin\ETicaret.Web.dll.config
+C:\Users\root\Desktop\ETicaret\ETicaret.Web\bin\ETicaret.Web.dll
+C:\Users\root\Desktop\ETicaret\ETicaret.Web\bin\ETicaret.Web.pdb
+C:\Users\root\Desktop\ETicaret\ETicaret.Web\bin\roslyn\csc.exe
+C:\Users\root\Desktop\ETicaret\ETicaret.Web\bin\roslyn\csc.exe.config
+C:\Users\root\Desktop\ETicaret\ETicaret.Web\bin\roslyn\csc.rsp
+C:\Users\root\Desktop\ETicaret\ETicaret.Web\bin\roslyn\csi.exe
+C:\Users\root\Desktop\ETicaret\ETicaret.Web\bin\roslyn\csi.exe.config
+C:\Users\root\Desktop\ETicaret\ETicaret.Web\bin\roslyn\csi.rsp
+C:\Users\root\Desktop\ETicaret\ETicaret.Web\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\root\Desktop\ETicaret\ETicaret.Web\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\root\Desktop\ETicaret\ETicaret.Web\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\root\Desktop\ETicaret\ETicaret.Web\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\root\Desktop\ETicaret\ETicaret.Web\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\root\Desktop\ETicaret\ETicaret.Web\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\root\Desktop\ETicaret\ETicaret.Web\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\root\Desktop\ETicaret\ETicaret.Web\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\root\Desktop\ETicaret\ETicaret.Web\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\root\Desktop\ETicaret\ETicaret.Web\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\root\Desktop\ETicaret\ETicaret.Web\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\root\Desktop\ETicaret\ETicaret.Web\bin\roslyn\System.AppContext.dll
+C:\Users\root\Desktop\ETicaret\ETicaret.Web\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\root\Desktop\ETicaret\ETicaret.Web\bin\roslyn\System.Console.dll
+C:\Users\root\Desktop\ETicaret\ETicaret.Web\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\root\Desktop\ETicaret\ETicaret.Web\bin\roslyn\System.Diagnostics.Process.dll
+C:\Users\root\Desktop\ETicaret\ETicaret.Web\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\root\Desktop\ETicaret\ETicaret.Web\bin\roslyn\System.IO.Compression.dll
+C:\Users\root\Desktop\ETicaret\ETicaret.Web\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\root\Desktop\ETicaret\ETicaret.Web\bin\roslyn\System.IO.FileSystem.DriveInfo.dll
+C:\Users\root\Desktop\ETicaret\ETicaret.Web\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\root\Desktop\ETicaret\ETicaret.Web\bin\roslyn\System.IO.Pipes.dll
+C:\Users\root\Desktop\ETicaret\ETicaret.Web\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\root\Desktop\ETicaret\ETicaret.Web\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\root\Desktop\ETicaret\ETicaret.Web\bin\roslyn\System.Security.Claims.dll
+C:\Users\root\Desktop\ETicaret\ETicaret.Web\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\root\Desktop\ETicaret\ETicaret.Web\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\root\Desktop\ETicaret\ETicaret.Web\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\root\Desktop\ETicaret\ETicaret.Web\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\root\Desktop\ETicaret\ETicaret.Web\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\root\Desktop\ETicaret\ETicaret.Web\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\root\Desktop\ETicaret\ETicaret.Web\bin\roslyn\System.Threading.Thread.dll
+C:\Users\root\Desktop\ETicaret\ETicaret.Web\bin\roslyn\System.ValueTuple.dll
+C:\Users\root\Desktop\ETicaret\ETicaret.Web\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\root\Desktop\ETicaret\ETicaret.Web\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\root\Desktop\ETicaret\ETicaret.Web\bin\roslyn\System.Xml.XPath.dll
+C:\Users\root\Desktop\ETicaret\ETicaret.Web\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\root\Desktop\ETicaret\ETicaret.Web\bin\roslyn\vbc.exe
+C:\Users\root\Desktop\ETicaret\ETicaret.Web\bin\roslyn\vbc.exe.config
+C:\Users\root\Desktop\ETicaret\ETicaret.Web\bin\roslyn\vbc.rsp
+C:\Users\root\Desktop\ETicaret\ETicaret.Web\bin\roslyn\VBCSCompiler.exe
+C:\Users\root\Desktop\ETicaret\ETicaret.Web\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\root\Desktop\ETicaret\ETicaret.Web\bin\Autofac.dll
+C:\Users\root\Desktop\ETicaret\ETicaret.Web\bin\Autofac.Integration.Mvc.dll
+C:\Users\root\Desktop\ETicaret\ETicaret.Web\bin\EntityFramework.dll
+C:\Users\root\Desktop\ETicaret\ETicaret.Web\bin\EntityFramework.SqlServer.dll
+C:\Users\root\Desktop\ETicaret\ETicaret.Web\bin\ETicaret.Data.dll
+C:\Users\root\Desktop\ETicaret\ETicaret.Web\bin\ETicaret.Services.dll
+C:\Users\root\Desktop\ETicaret\ETicaret.Web\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\root\Desktop\ETicaret\ETicaret.Web\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\root\Desktop\ETicaret\ETicaret.Web\bin\System.Web.Helpers.dll
+C:\Users\root\Desktop\ETicaret\ETicaret.Web\bin\System.Web.Mvc.dll
+C:\Users\root\Desktop\ETicaret\ETicaret.Web\bin\System.Web.Razor.dll
+C:\Users\root\Desktop\ETicaret\ETicaret.Web\bin\System.Web.Webpages.Deployment.dll
+C:\Users\root\Desktop\ETicaret\ETicaret.Web\bin\System.Web.Webpages.dll
+C:\Users\root\Desktop\ETicaret\ETicaret.Web\bin\System.Web.Webpages.Razor.dll
+C:\Users\root\Desktop\ETicaret\ETicaret.Web\bin\ETicaret.Data.pdb
+C:\Users\root\Desktop\ETicaret\ETicaret.Web\bin\ETicaret.Data.dll.config
+C:\Users\root\Desktop\ETicaret\ETicaret.Web\bin\ETicaret.Services.pdb
+C:\Users\root\Desktop\ETicaret\ETicaret.Web\bin\ETicaret.Services.dll.config
+C:\Users\root\Desktop\ETicaret\ETicaret.Web\bin\Autofac.xml
+C:\Users\root\Desktop\ETicaret\ETicaret.Web\bin\Autofac.Integration.Mvc.xml
+C:\Users\root\Desktop\ETicaret\ETicaret.Web\bin\EntityFramework.xml
+C:\Users\root\Desktop\ETicaret\ETicaret.Web\bin\EntityFramework.SqlServer.xml
+C:\Users\root\Desktop\ETicaret\ETicaret.Web\bin\System.Web.Razor.xml
+C:\Users\root\Desktop\ETicaret\ETicaret.Web\bin\System.Web.Webpages.xml
+C:\Users\root\Desktop\ETicaret\ETicaret.Web\bin\System.Web.Webpages.Deployment.xml
+C:\Users\root\Desktop\ETicaret\ETicaret.Web\bin\System.Web.Webpages.Razor.xml
+C:\Users\root\Desktop\ETicaret\ETicaret.Web\bin\System.Web.Helpers.xml
+C:\Users\root\Desktop\ETicaret\ETicaret.Web\bin\System.Web.Mvc.xml
+C:\Users\root\Desktop\ETicaret\ETicaret.Web\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\root\Desktop\ETicaret\ETicaret.Web\obj\Release\ETicaret.Web.csprojAssemblyReference.cache
+C:\Users\root\Desktop\ETicaret\ETicaret.Web\obj\Release\ETicaret.Web.csproj.CoreCompileInputs.cache
+C:\Users\root\Desktop\ETicaret\ETicaret.Web\obj\Release\ETicaret.Web.csproj.CopyComplete
+C:\Users\root\Desktop\ETicaret\ETicaret.Web\obj\Release\ETicaret.Web.dll
+C:\Users\root\Desktop\ETicaret\ETicaret.Web\obj\Release\ETicaret.Web.pdb
+D:\yedek\ders\ETicaret\ETicaret.Web\bin\ETicaret.Web.dll.config
+D:\yedek\ders\ETicaret\ETicaret.Web\bin\ETicaret.Web.dll
+D:\yedek\ders\ETicaret\ETicaret.Web\bin\ETicaret.Web.pdb
+D:\yedek\ders\ETicaret\ETicaret.Web\bin\roslyn\csc.exe
+D:\yedek\ders\ETicaret\ETicaret.Web\bin\roslyn\csc.exe.config
+D:\yedek\ders\ETicaret\ETicaret.Web\bin\roslyn\csc.rsp
+D:\yedek\ders\ETicaret\ETicaret.Web\bin\roslyn\csi.exe
+D:\yedek\ders\ETicaret\ETicaret.Web\bin\roslyn\csi.exe.config
+D:\yedek\ders\ETicaret\ETicaret.Web\bin\roslyn\csi.rsp
+D:\yedek\ders\ETicaret\ETicaret.Web\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\yedek\ders\ETicaret\ETicaret.Web\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\yedek\ders\ETicaret\ETicaret.Web\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\yedek\ders\ETicaret\ETicaret.Web\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\yedek\ders\ETicaret\ETicaret.Web\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\yedek\ders\ETicaret\ETicaret.Web\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\yedek\ders\ETicaret\ETicaret.Web\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\yedek\ders\ETicaret\ETicaret.Web\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\yedek\ders\ETicaret\ETicaret.Web\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\yedek\ders\ETicaret\ETicaret.Web\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\yedek\ders\ETicaret\ETicaret.Web\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\yedek\ders\ETicaret\ETicaret.Web\bin\roslyn\System.AppContext.dll
+D:\yedek\ders\ETicaret\ETicaret.Web\bin\roslyn\System.Collections.Immutable.dll
+D:\yedek\ders\ETicaret\ETicaret.Web\bin\roslyn\System.Console.dll
+D:\yedek\ders\ETicaret\ETicaret.Web\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\yedek\ders\ETicaret\ETicaret.Web\bin\roslyn\System.Diagnostics.Process.dll
+D:\yedek\ders\ETicaret\ETicaret.Web\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\yedek\ders\ETicaret\ETicaret.Web\bin\roslyn\System.IO.Compression.dll
+D:\yedek\ders\ETicaret\ETicaret.Web\bin\roslyn\System.IO.FileSystem.dll
+D:\yedek\ders\ETicaret\ETicaret.Web\bin\roslyn\System.IO.FileSystem.DriveInfo.dll
+D:\yedek\ders\ETicaret\ETicaret.Web\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\yedek\ders\ETicaret\ETicaret.Web\bin\roslyn\System.IO.Pipes.dll
+D:\yedek\ders\ETicaret\ETicaret.Web\bin\roslyn\System.Reflection.Metadata.dll
+D:\yedek\ders\ETicaret\ETicaret.Web\bin\roslyn\System.Security.AccessControl.dll
+D:\yedek\ders\ETicaret\ETicaret.Web\bin\roslyn\System.Security.Claims.dll
+D:\yedek\ders\ETicaret\ETicaret.Web\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\yedek\ders\ETicaret\ETicaret.Web\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\yedek\ders\ETicaret\ETicaret.Web\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\yedek\ders\ETicaret\ETicaret.Web\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\yedek\ders\ETicaret\ETicaret.Web\bin\roslyn\System.Security.Principal.Windows.dll
+D:\yedek\ders\ETicaret\ETicaret.Web\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\yedek\ders\ETicaret\ETicaret.Web\bin\roslyn\System.Threading.Thread.dll
+D:\yedek\ders\ETicaret\ETicaret.Web\bin\roslyn\System.ValueTuple.dll
+D:\yedek\ders\ETicaret\ETicaret.Web\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\yedek\ders\ETicaret\ETicaret.Web\bin\roslyn\System.Xml.XmlDocument.dll
+D:\yedek\ders\ETicaret\ETicaret.Web\bin\roslyn\System.Xml.XPath.dll
+D:\yedek\ders\ETicaret\ETicaret.Web\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\yedek\ders\ETicaret\ETicaret.Web\bin\roslyn\vbc.exe
+D:\yedek\ders\ETicaret\ETicaret.Web\bin\roslyn\vbc.exe.config
+D:\yedek\ders\ETicaret\ETicaret.Web\bin\roslyn\vbc.rsp
+D:\yedek\ders\ETicaret\ETicaret.Web\bin\roslyn\VBCSCompiler.exe
+D:\yedek\ders\ETicaret\ETicaret.Web\bin\roslyn\VBCSCompiler.exe.config
+D:\yedek\ders\ETicaret\ETicaret.Web\bin\Autofac.dll
+D:\yedek\ders\ETicaret\ETicaret.Web\bin\Autofac.Integration.Mvc.dll
+D:\yedek\ders\ETicaret\ETicaret.Web\bin\EntityFramework.dll
+D:\yedek\ders\ETicaret\ETicaret.Web\bin\EntityFramework.SqlServer.dll
+D:\yedek\ders\ETicaret\ETicaret.Web\bin\ETicaret.Data.dll
+D:\yedek\ders\ETicaret\ETicaret.Web\bin\ETicaret.Services.dll
+D:\yedek\ders\ETicaret\ETicaret.Web\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\yedek\ders\ETicaret\ETicaret.Web\bin\Microsoft.Web.Infrastructure.dll
+D:\yedek\ders\ETicaret\ETicaret.Web\bin\System.Web.Helpers.dll
+D:\yedek\ders\ETicaret\ETicaret.Web\bin\System.Web.Mvc.dll
+D:\yedek\ders\ETicaret\ETicaret.Web\bin\System.Web.Razor.dll
+D:\yedek\ders\ETicaret\ETicaret.Web\bin\System.Web.Webpages.Deployment.dll
+D:\yedek\ders\ETicaret\ETicaret.Web\bin\System.Web.Webpages.dll
+D:\yedek\ders\ETicaret\ETicaret.Web\bin\System.Web.Webpages.Razor.dll
+D:\yedek\ders\ETicaret\ETicaret.Web\bin\ETicaret.Data.pdb
+D:\yedek\ders\ETicaret\ETicaret.Web\bin\ETicaret.Data.dll.config
+D:\yedek\ders\ETicaret\ETicaret.Web\bin\ETicaret.Services.pdb
+D:\yedek\ders\ETicaret\ETicaret.Web\bin\ETicaret.Services.dll.config
+D:\yedek\ders\ETicaret\ETicaret.Web\bin\Autofac.xml
+D:\yedek\ders\ETicaret\ETicaret.Web\bin\Autofac.Integration.Mvc.xml
+D:\yedek\ders\ETicaret\ETicaret.Web\bin\EntityFramework.xml
+D:\yedek\ders\ETicaret\ETicaret.Web\bin\EntityFramework.SqlServer.xml
+D:\yedek\ders\ETicaret\ETicaret.Web\bin\System.Web.Razor.xml
+D:\yedek\ders\ETicaret\ETicaret.Web\bin\System.Web.Webpages.xml
+D:\yedek\ders\ETicaret\ETicaret.Web\bin\System.Web.Webpages.Deployment.xml
+D:\yedek\ders\ETicaret\ETicaret.Web\bin\System.Web.Webpages.Razor.xml
+D:\yedek\ders\ETicaret\ETicaret.Web\bin\System.Web.Helpers.xml
+D:\yedek\ders\ETicaret\ETicaret.Web\bin\System.Web.Mvc.xml
+D:\yedek\ders\ETicaret\ETicaret.Web\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\yedek\ders\ETicaret\ETicaret.Web\obj\Release\ETicaret.Web.csprojAssemblyReference.cache
+D:\yedek\ders\ETicaret\ETicaret.Web\obj\Release\ETicaret.Web.csproj.CoreCompileInputs.cache
+D:\yedek\ders\ETicaret\ETicaret.Web\obj\Release\ETicaret.Web.csproj.CopyComplete
+D:\yedek\ders\ETicaret\ETicaret.Web\obj\Release\ETicaret.Web.dll
+D:\yedek\ders\ETicaret\ETicaret.Web\obj\Release\ETicaret.Web.pdb

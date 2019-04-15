@@ -1,0 +1,50 @@
+﻿@model CreditCardModel
+@{
+    ViewBag.Title = "Payment Page";
+}
+<style>
+    .demo-container {
+        width: 100%;
+        max-width: 350px;
+        margin: 50px auto;
+    }
+
+    form {
+        margin: 30px;
+    }
+
+    input {
+        width: 200px;
+        margin: 10px auto;
+        display: block;
+    }
+</style>
+<div class="container m-t-20 m-b-20">
+    @using (Html.BeginForm())
+    {
+        @Html.AntiForgeryToken()
+        @Html.HiddenFor(f => f.BillingAddressId)
+        @Html.HiddenFor(f => f.ShippingAddressId)
+
+        <div class="demo-container">
+            <div class="card-wrapper"></div>
+
+            <div class="form-container active col-md-12">
+                <input placeholder="Kart Numarası" type="tel" name="number" class="form-control">
+                <input placeholder="Kart Sahibi" type="text" name="name" class="form-control">
+                <input placeholder="AY/YIL" type="tel" name="expiry" class="form-control">
+                <input placeholder="CVC" type="number" name="cvc" class="form-control">
+            </div>
+            <button type="submit" class="btn btn-primary btn-block">Ödemeyi Tamamla</button>
+        </div>
+    }
+</div>
+@section scripts{
+    <script src="~/Content/vendor/creditcard/dist/card.js"></script>
+    <script>
+        new Card({
+            form: document.querySelector('form'),
+            container: '.card-wrapper'
+        });
+    </script>
+}

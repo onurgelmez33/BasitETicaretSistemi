@@ -1,0 +1,6 @@
+D:\yedek\ders\ETicaret\ETicaret.Web.Admin\bin\Release\ETicaret.Web.Admin.dll
+D:\yedek\ders\ETicaret\ETicaret.Web.Admin\bin\Release\ETicaret.Web.Admin.pdb
+D:\yedek\ders\ETicaret\ETicaret.Web.Admin\obj\Release\ETicaret.Web.Admin.csprojAssemblyReference.cache
+D:\yedek\ders\ETicaret\ETicaret.Web.Admin\obj\Release\ETicaret.Web.Admin.csproj.CoreCompileInputs.cache
+D:\yedek\ders\ETicaret\ETicaret.Web.Admin\obj\Release\ETicaret.Web.Admin.dll
+D:\yedek\ders\ETicaret\ETicaret.Web.Admin\obj\Release\ETicaret.Web.Admin.pdb

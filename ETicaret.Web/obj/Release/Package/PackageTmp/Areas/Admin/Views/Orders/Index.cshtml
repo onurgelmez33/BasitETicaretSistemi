@@ -1,0 +1,58 @@
+﻿@model IEnumerable<ETicaret.Web.Areas.Admin.Models.OrderIndexModel>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
+}
+<h2>Siparişler</h2>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Id)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Musteri)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Tarih)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Durum)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Tutar)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Id)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Musteri)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Tarih)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.DurumEnum)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Tutar)₺
+        </td>
+        <td>
+            <a href="/admin/orders/details/@item.Id" class="btn btn-info"><i class="fa fa-eye"></i></a>
+        </td>
+    </tr>
+}
+    <tr>
+        <td colspan="4"></td>
+        <td>
+            @(Model.Sum(f => f.Tutar).ToString("n"))₺
+        </td>
+        <td></td>
+    </tr>
+
+</table>

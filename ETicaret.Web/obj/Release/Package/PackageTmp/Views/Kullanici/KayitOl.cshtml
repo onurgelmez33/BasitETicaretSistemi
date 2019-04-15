@@ -1,0 +1,74 @@
+﻿@model KullaniciKayitModel
+@{
+    ViewBag.Title = "Kayıt Ol";
+}
+
+<section class="bg-title-page p-t-40 p-b-50 flex-col-c-m" style="background-image: url(/Content/images/heading-pages-06.jpg);">
+    <h2 class="l-text2 t-center">
+        @ViewBag.Title
+    </h2>
+</section>
+
+<section class="bgwhite p-t-66 p-b-38">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4 centered">
+                @using (Html.BeginForm())
+                {
+                    @Html.ValidationSummary(false, "", htmlAttributes: new { @class = "text-danger" })
+                    if (Model.KullaniciAdiEtkin)
+                    {
+                        <div class="col-md-12">
+                            <div class="effect1">
+                                @Html.TextBoxFor(f => f.KullaniciAdi, new { @class = "s-text7  w-full p-b-5", @placeholder = "Kullanıcı Adı" })
+                                <span class="effect1-line"></span>
+                            </div>
+                        </div>
+                    }
+                    <div class="col-md-12" style="margin-top:20px;">
+                        <div class="effect1">
+                            @Html.TextBoxFor(f => f.Email, new { @class = "s-text7  w-full p-b-5", @type = "email", @placeholder = "Email" })
+                            <span class="effect1-line"></span>
+                        </div>
+                    </div>
+                    <div class="col-md-12" style="margin-top:20px;">
+                        <div class="effect1">
+                            @Html.PasswordFor(f => f.Sifre, new { @class = "s-text7  w-full p-b-5", @placeholder = "Şifre" })
+                            <span class="effect1-line"></span>
+                        </div>
+                    </div>
+                    <div class="col-md-12" style="margin-top:20px;">
+                        <div class="effect1">
+                            @Html.PasswordFor(f => f.SifreTekrar, new { @class = "s-text7  w-full p-b-5", @placeholder = "Şifre Tekrar" })
+                            <span class="effect1-line"></span>
+                        </div>
+                    </div>
+                    <div class="col-md-12" style="margin-top:20px;">
+                        <div class="effect1">
+                            @Html.TextBoxFor(f => f.Ad, new { @class = "s-text7  w-full p-b-5", @type = "text", @placeholder = "Ad" })
+                            <span class="effect1-line"></span>
+                        </div>
+                    </div>
+                    <div class="col-md-12" style="margin-top:20px;">
+                        <div class="effect1">
+                            @Html.TextBoxFor(f => f.Soyadi, new { @class = "s-text7  w-full p-b-5", @type = "text", @placeholder = "Soyad" })
+                            <span class="effect1-line"></span>
+                        </div>
+                    </div>
+                    <div class="col-md-12" style="margin-top:20px;">
+                        <div class="effect1">
+                            @Html.TextBoxFor(f => f.Telefon, new { @class = "s-text7  w-full p-b-5", @type = "text", @placeholder = "Telefon" })
+                            <span class="effect1-line"></span>
+                        </div>
+                    </div>
+                    <div class="w-size2 p-t-20 centered">
+                        <!-- Button -->
+                        <button class="flex-c-m size2 bg4 bo-rad-23 hov1 m-text3 trans-0-4" type="submit">
+                            Kayıt Ol
+                        </button>
+                    </div>
+                }
+            </div>
+        </div>
+    </div>
+</section>

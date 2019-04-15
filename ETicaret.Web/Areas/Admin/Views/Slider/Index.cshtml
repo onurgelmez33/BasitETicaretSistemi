@@ -1,0 +1,55 @@
+﻿@model IEnumerable<ETicaret.Web.Areas.Admin.Models.SlideIndexModel>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
+}
+
+
+<p>
+    @Html.ActionLink("Yeni Slide Oluştur", "Olustur")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.ResimYol)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Baslik)
+        </th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr id="item_@item.Id">
+            <td>
+                <img src="@Html.DisplayFor(modelItem => item.ResimYol)" width="75" />
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Baslik)
+            </td>
+            <td>
+                <a href="~/admin/slider/duzenle/@item.Id" class="btn btn-info" title="Düzenle"><i class="fa fa-pencil"></i></a>
+                <button type="button" class="btn btn-danger btnSil" data-id="@item.Id" title="Sil"><i class="fa fa-trash"></i></button>
+            </td>
+        </tr>
+    }
+</table>
+@section scripts{
+    <script>
+        $(".btnSil").click(function () {
+            var id = $(this).attr("data-id");
+            if (confirm("Emin misin?")) {
+                $.ajax({
+                    url: '/admin/slider/sil/' + id,
+                    type: 'get',
+                    success: function (result) {
+                        $("#item_" + id).remove();
+                        alert("Silme İşlemi Tamamlandı");
+                    }
+                });
+            }
+        })
+    </script>
+}

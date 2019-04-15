@@ -1,0 +1,5 @@
+C:\Users\Sony\Documents\Visual Studio 2017\Projects\ETicaret\ETicaret.Web.Admin\bin\Debug\ETicaret.Web.Admin.dll
+C:\Users\Sony\Documents\Visual Studio 2017\Projects\ETicaret\ETicaret.Web.Admin\bin\Debug\ETicaret.Web.Admin.pdb
+C:\Users\Sony\Documents\Visual Studio 2017\Projects\ETicaret\ETicaret.Web.Admin\obj\Debug\ETicaret.Web.Admin.csproj.CoreCompileInputs.cache
+C:\Users\Sony\Documents\Visual Studio 2017\Projects\ETicaret\ETicaret.Web.Admin\obj\Debug\ETicaret.Web.Admin.dll
+C:\Users\Sony\Documents\Visual Studio 2017\Projects\ETicaret\ETicaret.Web.Admin\obj\Debug\ETicaret.Web.Admin.pdb

@@ -1,0 +1,202 @@
+﻿
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>@ViewBag.Title</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--===============================================================================================-->
+    <link rel="icon" type="image/png" href="~/Content/images/icons/favicon.png" />
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="~/Content/vendor/bootstrap/css/bootstrap.min.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="~/Content/fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="~/Content/fonts/themify/themify-icons.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="~/Content/fonts/Linearicons-Free-v1.0.0/icon-font.min.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="~/Content/fonts/elegant-font/html-css/style.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="~/Content/vendor/animate/animate.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="~/Content/vendor/css-hamburgers/hamburgers.min.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="~/Content/vendor/animsition/css/animsition.min.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="~/Content/vendor/select2/select2.min.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="~/Content/vendor/slick/slick.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="~/Content/css/util.css">
+    <link rel="stylesheet" type="text/css" href="~/Content/css/main.css">
+    <!--===============================================================================================-->
+    <style>
+        .label {
+            background-color: #e65540;
+        }
+
+        .label {
+            z-index: 100;
+            font-family: Montserrat-Regular;
+            font-size: 12px;
+            color: white;
+            display: -webkit-box;
+            display: -webkit-flex;
+            display: -moz-box;
+            display: -ms-flexbox;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100px;
+            height: 22px;
+            border-radius: 11px;
+            position: absolute;
+            top: 12px;
+            left: 12px;
+        }
+    </style>
+</head>
+<body class="animsition">
+
+    <!-- Header -->
+    @{ Html.RenderAction("Header", "Common"); }
+    @RenderBody()
+    <!-- Footer -->
+    @{ Html.RenderAction("Footer", "Common"); }
+    <!-- Back to top -->
+    <div class="btn-back-to-top bg0-hov" id="myBtn">
+        <span class="symbol-btn-back-to-top">
+            <i class="fa fa-angle-double-up" aria-hidden="true"></i>
+        </span>
+    </div>
+
+    <!-- Container Selection -->
+    <div id="dropDownSelect1"></div>
+    <div id="dropDownSelect2"></div>
+
+
+
+    <!--===============================================================================================-->
+    <script type="text/javascript" src="~/Content/vendor/jquery/jquery-3.2.1.min.js"></script>
+    <!--===============================================================================================-->
+    <script type="text/javascript" src="~/Content/vendor/animsition/js/animsition.min.js"></script>
+    <!--===============================================================================================-->
+    <script type="text/javascript" src="~/Content/vendor/bootstrap/js/popper.js"></script>
+    <script type="text/javascript" src="~/Content/vendor/bootstrap/js/bootstrap.min.js"></script>
+    <!--===============================================================================================-->
+    <script type="text/javascript" src="~/Content/vendor/select2/select2.min.js"></script>
+    <!--===============================================================================================-->
+    <script type="text/javascript" src="~/Content/vendor/slick/slick.min.js"></script>
+    <script type="text/javascript" src="~/Content/js/slick-custom.js"></script>
+    <!--===============================================================================================-->
+    <script type="text/javascript" src="~/Content/vendor/countdowntime/countdowntime.js"></script>
+    <!--===============================================================================================-->
+    <script type="text/javascript" src="~/Content/vendor/lightbox2/js/lightbox.min.js"></script>
+    <!--===============================================================================================-->
+    <script type="text/javascript" src="~/Content/vendor/sweetalert/sweetalert.min.js"></script>
+    <script type="text/javascript">
+        $(".selection-1").select2({
+            minimumResultsForSearch: 20,
+            dropdownParent: $('#dropDownSelect1')
+        });
+
+        $(".selection-2").select2({
+            minimumResultsForSearch: 20,
+            dropdownParent: $('#dropDownSelect2')
+        });
+    </script>
+    <!--===============================================================================================-->
+    <script src="~/Content/js/main.js"></script>
+    <script>
+        function Show_header() {
+            $('.js-show-header-dropdown').on('click', function () {
+                $(this).parent().find('.header-dropdown')
+            });
+
+            var menu = $('.js-show-header-dropdown');
+            var sub_menu_is_showed = -1;
+
+            for (var i = 0; i < menu.length; i++) {
+                $(menu[i]).on('click', function () {
+
+                    if (jQuery.inArray(this, menu) == sub_menu_is_showed) {
+                        $(this).parent().find('.header-dropdown').toggleClass('show-header-dropdown');
+                        sub_menu_is_showed = -1;
+                    }
+                    else {
+                        for (var i = 0; i < menu.length; i++) {
+                            $(menu[i]).parent().find('.header-dropdown').removeClass("show-header-dropdown");
+                        }
+
+                        $(this).parent().find('.header-dropdown').toggleClass('show-header-dropdown');
+                        sub_menu_is_showed = jQuery.inArray(this, menu);
+                    }
+                });
+            }
+
+            $(".js-show-header-dropdown, .header-dropdown").click(function (event) {
+                event.stopPropagation();
+            });
+
+            $(window).on("click", function () {
+                for (var i = 0; i < menu.length; i++) {
+                    $(menu[i]).parent().find('.header-dropdown').removeClass("show-header-dropdown");
+                }
+                sub_menu_is_showed = -1;
+            });
+
+        }
+        $(".btnSepeteEkle").click(function () {
+            var id = $(this).attr("data-id");
+            $.ajax({
+                url: '/ShoppingCart/SepeteEkle',
+                type: 'get',
+                data: { urunId: id },
+                success: function (result) {
+                    var html = document.getElementById("cartArea");
+                    html.outerHTML = result;
+                    Show_header();
+                    alert("Sepetinize ekleme işlemi başarılı.");
+                }
+            });
+        });
+        $(".btnSepetAzalt").click(function () {
+            var id = $(this).attr("data-id");
+            $.ajax({
+                url: '/ShoppingCart/SepetAzalt',
+                type: 'get',
+                data: { urunId: id },
+                success: function (result) {
+                    var html = document.getElementById("cartArea");
+                    html.outerHTML = result;
+                    Show_header();
+                    alert("Güncelleme işlemi başarılı.");
+                }
+            });
+        });
+        $(".btnUrunSil").click(function () {
+            var id = $(this).attr("data-id");
+            if (confirm("Silmek istediğinizden emin misiniz?")) {
+                $.ajax({
+                    url: '/ShoppingCart/SepettenSil',
+                    type: 'get',
+                    data: { urunId: id },
+                    success: function (result) {
+                        var urunRow = $("#urun_" + id);
+                        var html = document.getElementById("cartArea");
+                        html.outerHTML = result;
+                        Show_header();
+                        alert("Silme işlemi başarılı.");
+                        if (urunRow != undefined && urunRow != null) {
+                            urunRow.remove();
+                        }
+                    }
+                });
+            }
+        });
+        Show_header();
+    </script>
+    @RenderSection("scripts", false)
+</body>
+</html>
